@@ -1,0 +1,4 @@
+#Pyramid
+a = int(input("Enter a value"))
+for i in range(1,a+1):
+    print(" " * (a - i)+ "*" * (2*i-1))
